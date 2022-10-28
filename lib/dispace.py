@@ -53,6 +53,6 @@ class Role:
             headers={'authorization': f'Bot {token}'}
         )
 
-client =  Bot("MTAzMzc4Nzk2NzY2NTM1NjgxMQ.GhRdsU.DSHBuMrnurLugX71AsOGvEyNtWbcMe9jWtOamc")
-print(Guild(client, 1011568154343919666).get_icon())
-print(Channel(client, 1023588329314332682).rename("тесты"))
+client =  Bot("0")
+print(Guild(client, 0).get_icon())
+print(Channel(client, 0).rename("тесты"))
